@@ -1,0 +1,84 @@
+body{
+    background: seagreen;
+}
+.start{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.tail-box{
+    width: 700px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 1rem;
+    background:#fdfdfd;
+}
+
+.singleTail{
+display: flex;
+justify-content: center;
+align-items: center;
+/* background: cornflowerblue; */
+}
+
+.tailBox
+{
+    width: 95%;
+    height: 95%;
+    display: grid;
+    grid-template-rows: 3fr 2fr;
+    justify-items: center;
+    align-items: center;
+    background-color: #cfd9e4;
+}
+
+.tailBoxIcon{
+    /* background-color: crimson; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.tailBoxButton{
+    /* background: darkcyan; */
+     height: 100%;
+    width: 100%;
+     display: flex;
+    justify-content: center;
+    align-items: flex-start
+    ;
+}
+.tailBoxButton button{
+    width: 150px;
+    height: 30px;
+    background: #0373dd;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+
+}
+
+.tailBox-Button1 button{
+    background: #00897b;
+}
+.tailBox-Button2 button{
+    background:#e62621;
+}
+.tailBox-Button3 button{
+    background: #61AACB;
+}
+.tailBox-Button4 button{
+    background: #F74B1A;
+}
+.tailBox-Button5 button{
+    background: #0062B2;
+}
